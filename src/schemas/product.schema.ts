@@ -22,7 +22,7 @@ export class Product {
     description: string;
 
     @Prop({ required: true })
-    image_url: string;
+    category_id: string;
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
